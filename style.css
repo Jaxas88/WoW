@@ -27,7 +27,7 @@ h3 {
 
 p {
 	color:#000;
-	font-weight:600;
+	font-weight:500;
 }
 
 a {
@@ -53,19 +53,33 @@ header {
 	height: 75px;
 }
 
-#PvP {
-	width: 400px; /* Account for margins + border values */
-    height: 425px;
+#left-side {
+	width: 378px; /* Account for margins + border values */
+    height: 350px;
 	float: left;
+    margin: 1px;
+    padding: 5px;
+    border-style: double;
+    border-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
 }
 
-#PvE {
-	width: 400px;
-    height: 425px;
+#right-side {
+	width: 380px;
+    height: 350px;
 	float: left;
+    margin: 1px;
+    padding: 5px;
+    border-style: double;
+    border-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
 }
 
 #nav {
+    border-style: none;
+    border-width: 100px;
     float: left;
     height: 50;
 }
@@ -83,6 +97,5 @@ header {
 }
 
 footer {
-    margin:0;
-	clear: both;
+    clear: both;
 }
