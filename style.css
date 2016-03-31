@@ -2,8 +2,12 @@ body {
 	font-family: arial, helvetica, sans-serif;
 	font-size: 14px;
     background-color: #ccc;
-    background-image: url("./img/thrall-1920x1200.jpg");
-	color:#525;
+    background: url("./img/gray4.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color:black;
 }
 
 h1 {
@@ -28,7 +32,7 @@ h3 {
 }
 
 p {
-	color:black;
+	color:#000;
 	font-weight:600;
 	/*line-height: 21px; */
 }
@@ -39,8 +43,3 @@ a {
 vs {
     font-size:50;
 }
-table {
-	font-style:2em;
-	color:red;
-}
-
