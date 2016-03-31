@@ -35,7 +35,9 @@ p {
 a {
 	color:blue;
 }
-
+vs {
+    font-size:50;
+}
 table {
 	font-style:2em;
 	color:red;
