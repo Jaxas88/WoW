@@ -1,38 +1,39 @@
 body {
 	font-family: arial, helvetica, sans-serif;
 	font-size: 14px;
-	color:#ff0000;
+    background-color: #ccc;
+	color:#525;
 }
 
 h1 {
-	color: #ffc;
-	background-color:#009;
+	color: #000;
 }
 
 h2 {
+    color:red;
     font-size: 1.5em;
-    background-color: #ccc;
-    margin: 20px; /* atitraukimas */
-    padding: 70px; /* platumas */
+    /* background-color: #ccc;
+    margin: 20px;  atitraukimas
+    padding: 70px;  platumas
 	border-style: double;
     border-width: 2px;
     border-left-width: 2px;
     border-right-width: 2px;
-    border-color: red;
+    border-color: red; */
 }
 
 h3 {
-	text-decoration: line-through;
+	color: #123;
 }
 
 p {
-	color:orange;
-	font-weight: bolder;
-	line-height: 21px;
+	color:black;
+	font-weight:600;
+	/*line-height: 21px; */
 }
 
 a {
-	color:green;
+	color:blue;
 }
 
 table {
