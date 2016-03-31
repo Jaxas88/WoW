@@ -1,6 +1,8 @@
-body {
+body, html {
 	font-family: arial, helvetica, sans-serif;
 	font-size: 14px;
+    margin:0;
+    padding:0;
     background-color: #ccc;
     background: url("./img/gray4.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -11,20 +13,12 @@ body {
 }
 
 h1 {
+    margin:0;
 	color: #000;
 }
 
 h2 {
     color:red;
-    font-size: 1.5em;
-    /* background-color: #ccc;
-    margin: 20px;  atitraukimas
-    padding: 70px;  platumas
-	border-style: double;
-    border-width: 2px;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-color: red; */
 }
 
 h3 {
@@ -34,12 +28,61 @@ h3 {
 p {
 	color:#000;
 	font-weight:600;
-	/*line-height: 21px; */
 }
 
 a {
 	color:blue;
 }
+
 vs {
     font-size:50;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	height: 75px;
+    width:100%;
+}
+#content-links {
+	height: 75px;
+}
+
+#PvP {
+	width: 400px; /* Account for margins + border values */
+    height: 425px;
+	float: left;
+}
+
+#PvE {
+	width: 400px;
+    height: 425px;
+	float: left;
+}
+
+#nav {
+    float: left;
+    height: 50;
+}
+
+#nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#nav li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+footer {
+    margin:0;
+	clear: both;
 }

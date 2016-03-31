@@ -8,28 +8,44 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
+<div id="pagewrap"></div>
+<div id="nav"></div>
+<div id="header"></div>
+<div id="footer>"></div>
+
+    <div id="pagewrap">
+    <header>
 	<h1><span>Hello and welcome to my test page about World of Warcraft!</span></h1>
-    
-    <article>
     <h2><em>This site is primarily about my learning expierence of HTML, CSS and JS.</em></h2>
-	<h3 id="wow-wiki">However, if you would like to know about World of Warcraft - you can check the wikipedia page on WoW <a href="https://en.wikipedia.org/wiki/World_of_Warcraft" target="_blank">here</a>.</h3>
-    <h4>You can also check the official site <a href="http://eu.battle.net/wow/en/" target="_blank">here</a>.
+    </header>
+    
+    <article id="content-links">
+    <h4 id="wow-wiki">However, if you would like to know about World of Warcraft - you can check the wikipedia page on WoW <a href="https://en.wikipedia.org/wiki/World_of_Warcraft" target="_blank">here</a>.</h3>
+    <h4 id="official">You can also check the official site <a href="http://eu.battle.net/wow/en/" target="_blank">here</a>.
     </article>   
     
-    <article>
+    <article id="PvP">
         <p>World of Warcraft is set in the same universe as the Warcraft series of real-time strategy games, and has a similar art direction.<br>
         World of Warcraft contains elements from fantasy, steampunk, and science fiction: such as gryphons, dragons, and elves; steam-powered automata; zombies, werewolves, and other horror monsters; as well as time travel, spaceships, and alien worlds.<br>
         Players control characters from one of two oposing forces in the game: Horde or Alliance. They are engaged in constant battle between each other:<br>
         <img src="./img/horde_walls_by_mirzaks-d56zv0f.png.jpg" width="160" height="120" alt="Horde"> <vs>vs</vs> <img src="./img/alliance_wall_by_mirzaks-d57b9ig.png.jpg" width="160" height="120" alt="Alliance"><br>
         This means that players can face each other in "player versus player" (or PvP) environment in the world or battlegrounds.</p>
+    </article>
         
+    <article id="PvE">    
         <p>Some of the challenges in World of Warcraft require players to group together to complete them. These usually take place in "player versus environment" (or PvE) setting, where groups wonder off to dungeons (also known as "instances").<br>
         The term "instance" comes from each group or party having a separate copy, or instance, of the dungeon, complete with their own enemies to defeat and their own treasure or rewards. This allows a group to explore areas and complete quests without others interfering.<br>
         Dungeons are spread over the game world and are designed for characters of varying progression. A typical dungeon will allow up to five characters to enter as part of a group.<br>
         Some dungeons require more players to group together and form a "raid" of up to forty players to face some of the most difficult challenges. As well as dungeon-based raid challenges, several creatures exist in the normal game environment that are designed for raids to attack.</p>
     </article>
       
-    <nav><a href="#wow-wiki">Go to wiki link</a></nav>
+    <div id="nav">
+        <ul>
+        <li><a href="#wow-wiki">Go to wiki link;</a></li>
+        <li><a href="#official">Go to official link;</a></li>
+        <li><a href="http://eu.battle.net/wow/en/character/kazzak/Jaxmon/" target="_blank">My armory.</a></li>
+        </ul>
+    </div>
    
 	
 <footer> 
@@ -40,6 +56,7 @@
     <p><a href="http://spiritaj.deviantart.com">Spiritaj</a></p>
     
 </footer>	
+</div>
 
 </body>
 </html>
