@@ -40,21 +40,17 @@ vs {
 
 /* STRUCTURE */
 
-#pagewrap {
+/*#pagewrap {
 	width: 800px;
-	margin: 0 auto;
-}
+}*/
 
 header {
-	height: 75px;
+	height:175px;
     width:100%;
-}
-#content-links {
-	height: 75px;
 }
 
 #left-side {
-	width: 378px; /* Account for margins + border values */
+	width: 400px; /* 378 Account for margins + border values */
     height: 350px;
 	float: left;
     margin: 1px;
@@ -66,7 +62,7 @@ header {
 }
 
 #right-side {
-	width: 380px;
+	width: 400px; /* 380 */
     height: 350px;
 	float: left;
     margin: 1px;
@@ -77,20 +73,17 @@ header {
     border-right-width: 2px;
 }
 
-#nav {
-    border-style: none;
-    border-width: 100px;
+nav {
     float: left;
-    height: 50;
 }
 
-#nav ul {
+nav ul {
     margin:0;
     padding:0;
     list-style:none;
 }
 
-#nav li {
+nav li {
     display:inline;
     margin:0;
     padding:0;
